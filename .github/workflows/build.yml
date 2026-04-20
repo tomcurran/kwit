@@ -18,7 +18,7 @@ jobs:
           - name: iPhone
             destination: "platform=iOS Simulator,OS=latest,name=iPhone 16"
           - name: iPad
-            destination: "platform=iOS Simulator,OS=latest,name=iPad (10th generation)"
+            destination: "platform=iOS Simulator,OS=latest,name=iPad Pro 13-inch (M4)"
           - name: Mac Catalyst
             destination: "platform=macOS,variant=Mac Catalyst"
 
