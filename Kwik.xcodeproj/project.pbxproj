@@ -18,6 +18,7 @@
 		2E4DBCC754750E7CC17FC82A /* QRCodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGenerator.swift; sourceTree = "<group>"; };
 		44DCC7E58BF92DDA9C9985EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B16A81882C6E7A4D224325E4 /* Kwik.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Kwik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBEA00117114117FBC5626E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F651944D187059CF4DE61E1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -35,6 +36,7 @@
 			children = (
 				44DCC7E58BF92DDA9C9985EF /* Assets.xcassets */,
 				F651944D187059CF4DE61E1D /* ContentView.swift */,
+				CBEA00117114117FBC5626E8 /* Info.plist */,
 				10F1FDCC3D9F19BE800E6DD6 /* KwikApp.swift */,
 				2E4DBCC754750E7CC17FC82A /* QRCodeGenerator.swift */,
 			);
@@ -133,7 +135,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kwik/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -219,7 +221,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kwik/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
