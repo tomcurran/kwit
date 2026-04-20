@@ -7,123 +7,148 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1DBC743D8547AA5C874D0ADC /* KwitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD57F8446DE5AB02C7AE3BE /* KwitApp.swift */; };
-		4D76C10920411787F2CDAD5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F9772EC15DD08C5A9BECFD /* Assets.xcassets */; };
-		8EAFC3E23FF1BE4EAC3528D2 /* QRCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12579CDC08931CB4E4777307 /* QRCodeGenerator.swift */; };
-		DC57A29C34DC4E9DA47AD729 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72489D8D85B25B2230ABD0EC /* ContentView.swift */; };
+		C20378DE20B03A4C8D3B7C93 /* KwikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F1FDCC3D9F19BE800E6DD6 /* KwikApp.swift */; };
+		EAA7C39828E046B2CC94750F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44DCC7E58BF92DDA9C9985EF /* Assets.xcassets */; };
+		EC5EE3FB5AF88FF2F2D1DCA9 /* QRCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4DBCC754750E7CC17FC82A /* QRCodeGenerator.swift */; };
+		F05454342BA1327257FD2EEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F651944D187059CF4DE61E1D /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		12579CDC08931CB4E4777307 /* QRCodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGenerator.swift; sourceTree = "<group>"; };
-		37B0F1EFFDC53EFEF8CBB766 /* Kwit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kwit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		72489D8D85B25B2230ABD0EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		BDD57F8446DE5AB02C7AE3BE /* KwitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KwitApp.swift; sourceTree = "<group>"; };
-		C1F9772EC15DD08C5A9BECFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10F1FDCC3D9F19BE800E6DD6 /* KwikApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KwikApp.swift; sourceTree = "<group>"; };
+		2E4DBCC754750E7CC17FC82A /* QRCodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGenerator.swift; sourceTree = "<group>"; };
+		44DCC7E58BF92DDA9C9985EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B16A81882C6E7A4D224325E4 /* Kwik.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Kwik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F651944D187059CF4DE61E1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		9CB1E4D1DA60E7F710411B3E = {
+		58B3664BB8D38B290C6F5400 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FC23CC2B750B5CC6941611FA /* Kwit */,
-				9D32F230DEE8F299D3A19755 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		9D32F230DEE8F299D3A19755 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				37B0F1EFFDC53EFEF8CBB766 /* Kwit.app */,
+				B16A81882C6E7A4D224325E4 /* Kwik.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FC23CC2B750B5CC6941611FA /* Kwit */ = {
+		CA1A75673C6CAD58735E8E3A /* Kwik */ = {
 			isa = PBXGroup;
 			children = (
-				C1F9772EC15DD08C5A9BECFD /* Assets.xcassets */,
-				72489D8D85B25B2230ABD0EC /* ContentView.swift */,
-				BDD57F8446DE5AB02C7AE3BE /* KwitApp.swift */,
-				12579CDC08931CB4E4777307 /* QRCodeGenerator.swift */,
+				44DCC7E58BF92DDA9C9985EF /* Assets.xcassets */,
+				F651944D187059CF4DE61E1D /* ContentView.swift */,
+				10F1FDCC3D9F19BE800E6DD6 /* KwikApp.swift */,
+				2E4DBCC754750E7CC17FC82A /* QRCodeGenerator.swift */,
 			);
-			path = Kwit;
+			path = Kwik;
+			sourceTree = "<group>";
+		};
+		DA941FB33117564772B1D66A = {
+			isa = PBXGroup;
+			children = (
+				CA1A75673C6CAD58735E8E3A /* Kwik */,
+				58B3664BB8D38B290C6F5400 /* Products */,
+			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B4FC23199482EACDDEDA9A4B /* Kwit */ = {
+		B1F700A01A107E5CA821BCBB /* Kwik */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A356D1B27106446B0E76F514 /* Build configuration list for PBXNativeTarget "Kwit" */;
+			buildConfigurationList = 96B0830D89F7B8259246CAA9 /* Build configuration list for PBXNativeTarget "Kwik" */;
 			buildPhases = (
-				C769016F4D9C6473E0322E7F /* Sources */,
-				C5CB62EA97A74AC773720A8B /* Resources */,
+				130818448A522C4DA54A82AB /* Sources */,
+				2AD8F7A3B252C503E6E8ECF3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Kwit;
+			name = Kwik;
 			packageProductDependencies = (
 			);
-			productName = Kwit;
-			productReference = 37B0F1EFFDC53EFEF8CBB766 /* Kwit.app */;
+			productName = Kwik;
+			productReference = B16A81882C6E7A4D224325E4 /* Kwik.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		85A9A704E08C32E748D113A6 /* Project object */ = {
+		9110143708D8B019F1CFFC9D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
 			};
-			buildConfigurationList = 6D03AFAD4BDAD50676FC85FD /* Build configuration list for PBXProject "Kwit" */;
+			buildConfigurationList = 044D6FFAF107B1AE91314440 /* Build configuration list for PBXProject "Kwik" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				Base,
 				en,
 			);
-			mainGroup = 9CB1E4D1DA60E7F710411B3E;
+			mainGroup = DA941FB33117564772B1D66A;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 9D32F230DEE8F299D3A19755 /* Products */;
+			productRefGroup = 58B3664BB8D38B290C6F5400 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B4FC23199482EACDDEDA9A4B /* Kwit */,
+				B1F700A01A107E5CA821BCBB /* Kwik */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C5CB62EA97A74AC773720A8B /* Resources */ = {
+		2AD8F7A3B252C503E6E8ECF3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D76C10920411787F2CDAD5B /* Assets.xcassets in Resources */,
+				EAA7C39828E046B2CC94750F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C769016F4D9C6473E0322E7F /* Sources */ = {
+		130818448A522C4DA54A82AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC57A29C34DC4E9DA47AD729 /* ContentView.swift in Sources */,
-				1DBC743D8547AA5C874D0ADC /* KwitApp.swift in Sources */,
-				8EAFC3E23FF1BE4EAC3528D2 /* QRCodeGenerator.swift in Sources */,
+				F05454342BA1327257FD2EEB /* ContentView.swift in Sources */,
+				C20378DE20B03A4C8D3B7C93 /* KwikApp.swift in Sources */,
+				EC5EE3FB5AF88FF2F2D1DCA9 /* QRCodeGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		83AE0295C00DD6CC96BBC162 /* Debug */ = {
+		1D465EBBFC1F8E6CB71E16EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kwik.app.Kwik;
+				PRODUCT_NAME = Kwik;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		352C18FEC674D731B45D7167 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -186,7 +211,30 @@
 			};
 			name = Debug;
 		};
-		AAE6C0A28362512A73FE78BA /* Release */ = {
+		74720418B6FBB3BB5941D013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kwik.app.Kwik;
+				PRODUCT_NAME = Kwik;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B9429480F03B07C63F2FEFC3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -242,76 +290,28 @@
 			};
 			name = Release;
 		};
-		B3652DE98809EA52AF64B433 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
-				DEVELOPMENT_TEAM = "";
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kwit.app.Kwit;
-				PRODUCT_NAME = Kwit;
-				SDKROOT = iphoneos;
-				SUPPORTS_MACCATALYST = YES;
-				SWIFT_VERSION = 5.9;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		D1F8CAA09CAE5DF6B82AD21C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
-				DEVELOPMENT_TEAM = "";
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kwit.app.Kwit;
-				PRODUCT_NAME = Kwit;
-				SDKROOT = iphoneos;
-				SUPPORTS_MACCATALYST = YES;
-				SWIFT_VERSION = 5.9;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6D03AFAD4BDAD50676FC85FD /* Build configuration list for PBXProject "Kwit" */ = {
+		044D6FFAF107B1AE91314440 /* Build configuration list for PBXProject "Kwik" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83AE0295C00DD6CC96BBC162 /* Debug */,
-				AAE6C0A28362512A73FE78BA /* Release */,
+				352C18FEC674D731B45D7167 /* Debug */,
+				B9429480F03B07C63F2FEFC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		A356D1B27106446B0E76F514 /* Build configuration list for PBXNativeTarget "Kwit" */ = {
+		96B0830D89F7B8259246CAA9 /* Build configuration list for PBXNativeTarget "Kwik" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3652DE98809EA52AF64B433 /* Debug */,
-				D1F8CAA09CAE5DF6B82AD21C /* Release */,
+				1D465EBBFC1F8E6CB71E16EB /* Debug */,
+				74720418B6FBB3BB5941D013 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 85A9A704E08C32E748D113A6 /* Project object */;
+	rootObject = 9110143708D8B019F1CFFC9D /* Project object */;
 }

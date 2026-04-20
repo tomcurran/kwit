@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct KwitApp: App {
+struct KwikApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationStack {
