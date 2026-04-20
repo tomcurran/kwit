@@ -16,9 +16,9 @@ jobs:
       matrix:
         include:
           - name: iPhone
-            destination: "platform=iOS Simulator,OS=latest,name=iPhone 16"
+            destination: "platform=iOS Simulator,name=iPhone 16"
           - name: iPad
-            destination: "platform=iOS Simulator,OS=latest,name=iPad Pro 13-inch (M4)"
+            destination: "platform=iOS Simulator,name=iPad Pro 13-inch (M4)"
           - name: Mac Catalyst
             destination: "platform=macOS,variant=Mac Catalyst"
 
