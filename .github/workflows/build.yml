@@ -30,11 +30,18 @@ jobs:
         with:
           xcode-version: "26.4"
 
-      - name: Build for ${{ matrix.name }}
+      - name: Archive for ${{ matrix.name }}
         run: |
           set -o pipefail
-          xcodebuild build \
+          xcodebuild archive \
             -project Kwik.xcodeproj \
             -scheme Kwik \
             -destination "${{ matrix.destination }}" \
+            -archivePath "${{ runner.temp }}/Kwik-${{ matrix.name }}.xcarchive" \
             CODE_SIGNING_ALLOWED=NO
+
+      - name: Upload archive
+        uses: actions/upload-artifact@v7.0.1
+        with:
+          name: Kwik-${{ matrix.name }}.xcarchive
+          path: ${{ runner.temp }}/Kwik-${{ matrix.name }}.xcarchive
